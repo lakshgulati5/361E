@@ -1,0 +1,2 @@
+train_accuracy_pct,test_accuracy_pct,train_time_s,inference_time_s,avg_inference_ms,gpu_mem_mb
+92.5650,92.3500,202.1325,1.1750,0.1175,17.7378

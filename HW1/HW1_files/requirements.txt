@@ -1,0 +1,8 @@
+matplotlib
+numpy
+pandas
+thop
+torch
+torchsummary
+torchvision
+virtualenv
