@@ -1,0 +1,3 @@
+model,normalized,params,param_kb,state_kb,full_kb,final_train_acc,final_test_acc,train_time_s,macs,flops
+myCNN,yes,5226,20.41,26.39,28.80,97.6533,97.2400,439.9821,1093248,2186496
+myCNN,yes,5226,20.41,26.39,28.80,97.6533,97.2400,440.7258,1093248,2186496
