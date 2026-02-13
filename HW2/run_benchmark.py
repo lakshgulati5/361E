@@ -51,7 +51,7 @@ print('Current freq for big cluster:', get_cluster_freq(4))
 start = time.time()
 print("Start time: ", start)
 # run the benchmark
-command = "taskset --all-tasks 0x20 /home/student/HW2_files/TPBench.exe"   # 0x20: core 5 (7 6 5 4 3 2 1 0)
+command = "taskset --all-tasks 0x10 /home/student/HW2_files/TPBench.exe"   # 0x10: core 4 (7 6 5 4 3 2 1 0)
 proc_ben = subprocess.call(command.split())
 
 end = time.time()
