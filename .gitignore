@@ -6,5 +6,6 @@
 *.onnx
 
 *.heic
+*.pt
 
 HW3/data/*
