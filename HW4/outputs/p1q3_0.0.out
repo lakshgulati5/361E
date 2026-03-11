@@ -1,0 +1,8 @@
+Starting inference for onnx_files/MobilenetV1.onnx...
+Running silently to prevent print delays. Please wait...
+
+--- Inference Complete ---
+Total Images: 10000
+Test Accuracy: 78.4900 %
+Total Inference Time: 284.5869 seconds
+Average Latency per image: 28.4587 ms

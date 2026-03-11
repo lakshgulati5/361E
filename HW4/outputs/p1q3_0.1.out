@@ -1,0 +1,8 @@
+Starting inference for onnx_files/q2_magnitude_0.1_5_5_MBNv1.onnx...
+Running silently to prevent print delays. Please wait...
+
+--- Inference Complete ---
+Total Images: 10000
+Test Accuracy: 76.9000 %
+Total Inference Time: 554.0346 seconds
+Average Latency per image: 55.4035 ms

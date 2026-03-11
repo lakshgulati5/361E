@@ -1,0 +1,42 @@
+
+--- MISSING STATS FOR: onnx_files/MobilenetV1.onnx ---
+Model Size [MB]:               12.2418
+Maximum memory usage [MB]:     65.0391
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.05_5_5_MBNv1.onnx ---
+Model Size [MB]:               11.0450
+Maximum memory usage [MB]:     63.1250
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.1_5_5_MBNv1.onnx ---
+Model Size [MB]:               9.9207
+Maximum memory usage [MB]:     61.9023
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.2_5_5_MBNv1.onnx ---
+Model Size [MB]:               7.8716
+Maximum memory usage [MB]:     58.9375
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.3_5_5_MBNv1.onnx ---
+Model Size [MB]:               6.0561
+Maximum memory usage [MB]:     56.5938
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.4_5_5_MBNv1.onnx ---
+Model Size [MB]:               4.4823
+Maximum memory usage [MB]:     54.4219
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
+
+--- MISSING STATS FOR: onnx_files/q2_magnitude_0.5_5_5_MBNv1.onnx ---
+Model Size [MB]:               3.1495
+Maximum memory usage [MB]:     53.9453
+Average Energy per image [mJ]: SENSOR NOT FOUND
+---------------------------------------------
