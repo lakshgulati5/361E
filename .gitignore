@@ -3,3 +3,8 @@
 *.pth
 *.zip
 
+*.onnx
+
+*.heic
+
+HW3/data/*
