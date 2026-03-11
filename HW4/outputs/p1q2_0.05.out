@@ -1,0 +1,22 @@
+Test loss: 1.3618 Test accuracy: 78.11 %
+
+Test loss: 1.5891 Test accuracy: 77.94 %
+
+Test loss: 1.5773 Test accuracy: 78.04 %
+
+Test loss: 1.5404 Test accuracy: 78.48 %
+
+Test loss: 1.5457 Test accuracy: 78.26 %
+
+Test loss: 1.5966 Test accuracy: 78.04 %
+
+Test loss: 1.5909 Test accuracy: 78.23 %
+
+Test loss: 1.5873 Test accuracy: 78.10 %
+
+Test loss: 1.5523 Test accuracy: 77.89 %
+
+Test loss: 1.5935 Test accuracy: 77.95 %
+
+Saved checkpoint: /work/11198/lsg879/ls6/HW4_files/q2_magnitude_0.05_5_5_MBNv1.pth
+Exported ONNX model to q2_magnitude_0.05_5_5_MBNv1.onnx
