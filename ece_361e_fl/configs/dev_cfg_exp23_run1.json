@@ -1,0 +1,19 @@
+{
+  "num_devices": 2,
+  "dev1": {
+    "hw_type": "rpi",
+    "host": "sld-rpi-13.ece.utexas.edu",
+    "port": 9090,
+    "cuda_name": "cpu",
+    "model_name": "lenet5",
+    "local_epochs": 1
+  },
+  "dev2": {
+    "hw_type": "mc1",
+    "host": "sld-mc1-13.ece.utexas.edu",
+    "port": 9090,
+    "cuda_name": "cpu",
+    "model_name": "lenet5",
+    "local_epochs": 1
+  }
+}

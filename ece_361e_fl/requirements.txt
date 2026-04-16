@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+paramiko
+scp
+tqdm
+matplotlib
+pandas

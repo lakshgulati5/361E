@@ -1,0 +1,29 @@
+debug3: mm_request_receive: entering
+debug3: monitor_read: checking request 4
+debug3: mm_answer_authserv: service=ssh-connection, style=
+debug2: monitor_read: 4 used once, disabling now
+debug3: mm_request_receive: entering
+debug3: monitor_read: checking request 12
+debug3: mm_answer_authpassword: sending result 1
+debug3: mm_answer_authpassword: sending result 1
+debug3: mm_request_send: entering, type 13
+Accepted password for suraj from [ip] port 58690 ssh2
+debug1: monitor_child_preauth: user suraj authenticated by privileged process
+debug3: mm_get_keystate: Waiting for new keys
+debug3: mm_request_receive_expect: entering, type 26
+debug3: mm_request_receive: entering
+debug3: mm_get_keystate: GOT new keys
+debug3: mm_auth_password: user authenticated [preauth]
+debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+debug3: ensure_minimum_time_since: elapsed 104.000ms, delaying 22.382ms (requested 7.899ms) [preauth]
+debug3: send packet: type 52 [preauth]
+debug3: mm_request_send: entering, type 26 [preauth]
+debug3: mm_send_keystate: Finished sending state [preauth]
+debug3: ReadFileEx() ERROR:109, io:000001A4F3A9C5B0
+debug3: read - no more data, io:000001A4F3A9C5B0
+debug1: monitor_read_log: child log fd closed
+debug1: Not running as SYSTEM: skipping loading user profile
+debug3: spawning "C:\\Windows\\System32\\OpenSSH\\sshd.exe" -ddd -p 22 -z as user
+CreateProcessAsUserW failed error:1314
+fork of unprivileged child failed
+debug1: do_cleanup
