@@ -1,0 +1,19 @@
+{
+  "cloud_ip": "172.29.204.169",
+  "cloud_port": 9090,
+  "cloud_cuda_name": "cpu",
+  "model_name": "lenet5",
+  "loss_func_name": "cross_entropy",
+  "loss_type": "fedprox",
+  "mu": 2.0,
+  "beta": 50.0,
+  "comm_rounds": 30,
+  "learning_rate": 0.01,
+  "verbose": false,
+  "experiment": "exp41",
+  "run": "run3",
+  "seed": 26,
+  "laptop_number": "laptop_1",
+  "data_iid": false,
+  "num_devices": 2
+}

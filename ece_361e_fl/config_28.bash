@@ -20,9 +20,9 @@ declare -a experiment_configs=(
 )
 
 declare -a devices_configs=(
-# hw_type | host | port | cuda_name | local_epochs
-  "rpi sld-rpi-13.ece.utexas.edu 9090 cpu 2"
-  "mc1 sld-mc1-13.ece.utexas.edu 9090 cpu 1"
+# hw_type | host | port | cuda_name | local_epochs | learning_rate
+  "rpi sld-rpi-13.ece.utexas.edu 9090 cpu 2 0.005"
+  "mc1 sld-mc1-13.ece.utexas.edu 9090 cpu 1 0.01"
 )
 ############### TODO END CHANGE
 
@@ -55,6 +55,7 @@ do
   declare -a ports
   declare -a model_names
   declare -a dev_local_epochs
+  declare -a dev_learning_rates
   for devs_configs in "${devices_configs[@]}"
   do
     read -a dev_config <<< "$devs_configs"
@@ -73,6 +74,8 @@ do
     model_names+=("$model_name")
     local_epochs="${dev_config[4]}"
     dev_local_epochs+=("$local_epochs")
+    learning_rate_dev="${dev_config[5]}"
+    dev_learning_rates+=("$learning_rate_dev")
   done
 
   cloud_config_filename="cloud_cfg_exp${experiment}_run${run}.json"
@@ -103,5 +106,6 @@ do
   --ports "${ports[*]}" \
   --cuda_names "${cuda_names[*]}" \
   --model_names "${model_names[*]}" \
-  --dev_local_epochs "${dev_local_epochs[*]}"
+  --dev_local_epochs "${dev_local_epochs[*]}" \
+  --dev_learning_rates "${dev_learning_rates[*]}"
 done

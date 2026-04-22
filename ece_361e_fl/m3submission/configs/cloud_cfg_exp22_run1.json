@@ -1,0 +1,19 @@
+{
+  "cloud_ip": "172.29.204.128",
+  "cloud_port": 9090,
+  "cloud_cuda_name": "cpu",
+  "model_name": "resnet8",
+  "loss_func_name": "cross_entropy",
+  "loss_type": "fedmax",
+  "mu": 1.1,
+  "beta": 10.0,
+  "comm_rounds": 30,
+  "learning_rate": 0.01,
+  "verbose": false,
+  "experiment": "exp22",
+  "run": "run1",
+  "seed": 2,
+  "laptop_number": "laptop_1",
+  "data_iid": false,
+  "num_devices": 2
+}
